@@ -119,7 +119,7 @@ function wrong7(){
 function wrong8(){
     document.getElementById("wrong8").innerHTML= "Incorrect 👎";
 
-    document.getElementById("ans_3").innerHTML="Correct answer : Vaishnao Devi Temple";
+    document.getElementById("ans_8").innerHTML="Correct answer : Vaishnao Devi Temple";
 
     document.getElementById("final_score").innerHTML= "Your Final Score is "+marks+"/8";
 
