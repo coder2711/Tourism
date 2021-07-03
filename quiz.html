@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script src="quiz.js"></script>
+    </head>
+    <body>
+        
+           <center>
+            <h1>Quiz Time!</h1><hr><br><br>
+
+            <h3>Let's take a test and see how much you know about Incredible India!</h3><br><br>
+             
+            <h4>Q1. Which is the southern most tip of India?</h4><br>
+           </center> 
+            
+            <button class="btn btn" onclick="wrong1()">a. Coimbatore</button><br><br>
+            <button class="btn btn" onclick="correct1()">b. Cape Comorin</button><br><br>
+            <button class="btn btn" onclick="wrong1()">c. Port Blair</button><br><br>
+            <button class="btn btn" onclick="wrong1()">d. Kochi</button><br><br>
+            <center>
+                <h4 class="a" id="person_ans_1"></h4>
+                <h4 class="b" id="wrong1"></h4>
+                <h4 id="ans_1"></h4><br><br>
+                <h4>Q2. Where is the Hornbill festival held?</h4><br>
+            </center>
+
+            <button class="btn btn" onclick="correct2()">a. Nagaland</button><br><br>
+            <button class="btn btn" onclick="wrong2()">b. Manipur</button><br><br>
+            <button class="btn btn" onclick="wrong2()">c. Assam</button><br><br>
+            <button class="btn btn" onclick="wrong2()">d. Arunachal Pradesh</button><br><br>
+
+            <center>
+                <h4 class="a" id="person_ans_2"></h4>
+                <h4 class="b" id="wrong2"></h4>
+                <h4 id="ans_2"></h4><br><br>
+                <h4>Q3. Where is the Sundarban National Park, home to the Bengal Tiger located?</h4><br>
+            </center>
+
+            <button class="btn btn" onclick="wrong3()">a. Kerala</button><br><br>
+            <button class="btn btn" onclick="wrong3()">b. Gujarat</button><br><br>
+            <button class="btn btn" onclick="wrong3()">c. Maharashtra</button><br><br>
+            <button class="btn btn" onclick="correct3()">d. West Bengal</button><br><br>
+
+            <center>
+                <h4 class="a" id="person_ans_3"></h4>
+                <h4 class="b" id="wrong3"></h4>
+                <h4 id="ans_3"></h4><br><br>
+                <h4>Q4. Number of World Heritage Sites recognised by UNESCO in India?</h4><br>
+                
+            </center>
+            <button class="btn btn" onclick="wrong4()">a. 32</button><br><br>
+            <button class="btn btn" onclick="correct4()">b. 38</button><br><br>
+            <button class="btn btn" onclick="wrong4()">c. 40</button><br><br>
+            <button class="btn btn" onclick="wrong4()">d. 42</button><br><br>
+
+            <center>
+                <h4 id="person_ans_4" class="a"></h4>
+                <h4 class="b" id="wrong4"></h4>
+                <h4 id="ans_4"></h4><br><br>
+                <h4>Q5. Which city is the health care capital of India?</h4><br>
+            </center>
+
+            <button class="btn btn" onclick="wrong5()">a. Kolkata</button><br><br>
+            <button class="btn btn" onclick="wrong5()">b. Mumbai</button><br><br>
+            <button class="btn btn" onclick="wrong5()">c. Bengaluru</button><br><br>
+            <button class="btn btn" onclick="correct5()">d. Chennai</button><br><br>
+
+            <center>
+                <h4 id="person_ans_5" class="a"></h4>
+                <h4 class="b" id="wrong5"></h4>
+                <h4 id="ans_5"></h4><br><br>
+                <h4>Q6. Which is the famous folk dance of Andhra Pradesh?</h4><br>
+            </center>
+
+           <button class="btn btn" onclick="wrong6()">a. Kathakali</button><br><br>
+            <button class="btn btn" onclick="wrong6()">b. Bharatnatyam</button><br><br>
+            <button class="btn btn" onclick="correct6()">c. Kuchipudi</button><br><br>
+            <button class="btn btn" onclick="wrong6()">d. Bihu</button><br><br>
+
+            <center>
+                <h4 id="person_ans_6" class="a"></h4>
+                <h4 class="b" id="wrong6"></h4>
+                <h4 id="ans_6"></h4><br><br>
+                <h4>Q7. What is Bir-Billing near Dharamshala in Himanchal Pradesh famous for?</h4><br>
+            </center>
+            
+            <button class="btn btn" onclick="wrong7()">a. Scuba Diving</button><br><br>
+            <button class="btn btn" onclick="correct7()">b. Para Gliding</button><br><br>
+            <button class="btn btn" onclick="wrong7()">c. Skiing</button><br><br>
+            <button class="btn btn" onclick="wrong7()">d. Trekking</button><br><br>
+
+            <center>
+                <h4 id="person_ans_7" class="a"></h4>
+                <h4 class="b" id="wrong7"></h4>
+                <h4 id="ans_7"></h4><br><br>
+                <h4>Q8. Jammu and Kashmir is famous for Which temple</h4><br>
+
+            </center>
+
+            <button class="btn btn" onclick="wrong8()">a. Golden Temple</button><br><br>
+            <button class="btn btn" onclick="wrong8()">b. Siddhi Vinayak Temple</button><br><br>
+            <button class="btn btn" onclick="correct8()">c. Vaishnao Devi Temple</button><br><br>
+            <button class="btn btn" onclick="wrong8()">d. Konark Sun Temple</button><br><br>
+
+            <center>
+                <h4 id="person_ans_8" class="a"></h4>
+                <h4 class="b" id="wrong8"></h4>
+                <h4 id="ans_8"></h4>
+                <h2 id="final_score"></h2>
+
+                <h2 id="ack"></h2><br><br><br>
+                    <button class="btn btn-danger" onclick="home()" id="h">Back to Home</button><br><br><br>
+
+            </center>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+#header{
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+}
+
+body{
+    background: rgb(39,147,44);
+background: linear-gradient(0deg, rgba(39,147,44,1) 00%, rgba(39,147,44,1) 35%, rgba(218,207,180,1) 50%, rgba(255,119,35,1) 65%, rgba(255,119,35,1) 100%);
+}
+h2{
+    color: rgb(182, 25, 25);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+}
+h4{
+    color: rgb(255, 187, 0);
+    font-size: 25px;
+    font-family: initial;
+    font-weight: bold;
+}
+h5{
+    color: rgb(22, 20, 121);
+    font-size: 20px;
+}
+
+#yellow{
+    color: black;
+    font-size: 20px;
+}
+
+h3{
+    color: black;
+}
+h1{
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#end{
+    background-color: ivory;
+    
+}
+h6{
+    color: black;
+    font-weight: bolder; 
+    font-size: 13px;
+}
+
+#pit{
+    width: 100px;
+    height: 100px;
+}

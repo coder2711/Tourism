@@ -1,0 +1,33 @@
+body{
+    background: rgb(230,230,62);
+background: radial-gradient(circle, rgba(230,230,62,1) 0%, rgba(97,249,91,1) 100%);
+    color: black;
+    text-align: left;
+}
+
+h1{
+    color: firebrick;
+}
+
+button{
+    margin-left: 480px;
+}
+
+.a{
+    color: rgb(32, 172, 5);
+    font-size: large;
+    width: 30%;
+    font-weight: bolder;
+    
+}
+
+.b{
+    color:rgb(255, 38, 0);
+    width: 30%;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#h{
+    margin-right: 430px;
+}
